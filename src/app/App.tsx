@@ -194,7 +194,7 @@ export default function App() {
     formData.append('file', uploadedFile);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/transcripts', {
+      const response = await fetch('https://video-summarizer-backend-n4s2.onrender.com/transcripts', {
         method: 'POST',
         body: formData,
       });
@@ -233,7 +233,7 @@ export default function App() {
     formData.append('aiModel', selectedModel);
 
     try {
-      const response = await fetch('https://video-summarizer-backend-n4s2.onrender.com', {
+      const response = await fetch('https://video-summarizer-backend-n4s2.onrender.com/process', {
         method: 'POST',
         body: formData,
       });
