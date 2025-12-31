@@ -1,4 +1,4 @@
-
+## VIDEO TRANSCRIPTION AND SUMMARAZATION TOOL VIA AI 
   ## To settle
   pip install -r requirements.txt
 
